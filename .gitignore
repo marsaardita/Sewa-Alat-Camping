@@ -1,0 +1,28 @@
+# Git backup
+.git_backup/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Frontend - React & Vite
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.vite/
+
+# Backend - PHP
+Backend/vendor/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor
+.vscode/
+.idea/
